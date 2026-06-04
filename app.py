@@ -14,7 +14,7 @@ st.title("📊 Telco Customer Churn Prediction App")
 # load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    df = pd.read_excel("WA_Fn-UseC_-Telco-Customer-Churn.xls")
     return df
 
 df = load_data()
